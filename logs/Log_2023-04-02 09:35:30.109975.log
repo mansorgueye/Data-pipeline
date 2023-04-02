@@ -1,0 +1,50 @@
+INFO:root:Drugs file loaded
+INFO:root:Pubmed csv file loaded
+INFO:root:Pubmed json file loaded
+INFO:root:Clinical trials json file loaded
+INFO:root:Clinical trials csv file and json file merge
+INFO:root:All data needed to run the pipeline is loaded
+INFO:root:Missing pipeline option (runner). Executing pipeline using the default runner: DirectRunner.
+INFO:root:Default Python SDK image for environment is apache/beam_python3.9_sdk:2.42.0
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function annotate_downstream_side_inputs at 0x10be683a0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function fix_side_input_pcoll_coders at 0x10be684c0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function pack_combiners at 0x10be689d0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function lift_combiners at 0x10be68a60> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function expand_sdf at 0x10be68c10> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function expand_gbk at 0x10be68ca0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function sink_flattens at 0x10be68dc0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function greedily_fuse at 0x10be68e50> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function read_to_impulse at 0x10be68ee0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function impulse_to_input at 0x10be68f70> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function sort_stages at 0x10be691f0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function add_impulse_to_dangling_transforms at 0x10be69310> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function setup_timer_mapping at 0x10be69160> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function populate_data_channel_coders at 0x10be69280> ====================
+INFO:apache_beam.runners.worker.statecache:Creating state cache with size 100
+INFO:apache_beam.runners.portability.fn_api_runner.worker_handlers:Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.EmbeddedWorkerHandler object at 0x10c4c3370> for environment ref_Environment_default_environment_1 (beam:env:embedded_python:v1, b'')
+WARNING:apache_beam.io.filebasedsink:Deleting 1 existing files in target path matching: 
+INFO:apache_beam.io.filebasedsink:Starting finalize_write threads with num_shards: 1 (skipped: 0), batches: 1, num_threads: 1
+INFO:apache_beam.io.filebasedsink:Renamed 1 shards in 0.01 seconds.
+INFO:root:Default Python SDK image for environment is apache/beam_python3.9_sdk:2.42.0
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function annotate_downstream_side_inputs at 0x10be683a0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function fix_side_input_pcoll_coders at 0x10be684c0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function pack_combiners at 0x10be689d0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function lift_combiners at 0x10be68a60> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function expand_sdf at 0x10be68c10> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function expand_gbk at 0x10be68ca0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function sink_flattens at 0x10be68dc0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function greedily_fuse at 0x10be68e50> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function read_to_impulse at 0x10be68ee0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function impulse_to_input at 0x10be68f70> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function sort_stages at 0x10be691f0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function add_impulse_to_dangling_transforms at 0x10be69310> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function setup_timer_mapping at 0x10be69160> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function populate_data_channel_coders at 0x10be69280> ====================
+INFO:apache_beam.runners.worker.statecache:Creating state cache with size 100
+INFO:apache_beam.runners.portability.fn_api_runner.worker_handlers:Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.EmbeddedWorkerHandler object at 0x10c52d6d0> for environment ref_Environment_default_environment_1 (beam:env:embedded_python:v1, b'')
+WARNING:apache_beam.io.filebasedsink:Deleting 1 existing files in target path matching: 
+INFO:apache_beam.io.filebasedsink:Starting finalize_write threads with num_shards: 1 (skipped: 0), batches: 1, num_threads: 1
+INFO:apache_beam.io.filebasedsink:Renamed 1 shards in 0.00 seconds.
+INFO:root:Pipeline running
+INFO:root:Pipeline completed successfully
+INFO:root:Path to the resulting json file:/Users/mansorgueye/Desktop/LBC  DE TEST /src/../outputs/DRUGS_PUBS_TRIALS_JOURNALS_GRAPH_LINK 
