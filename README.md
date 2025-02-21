@@ -16,7 +16,7 @@ Pour avoir le nom du journal qui mentionne le plus de médicaments différents, 
 Pour lancer les tests unitaires que j'ai implémentés, exécutez le fichier src/test.py.
 
 ### Pour aller plus loin
-Pour passer à l'échelle et gérer de grosses volumétries de données, une solution simple serait d'exécuter le pipeline dans le cloud. 
+Pour passer à l'échelle et gérer de grosses volumétries de données, une solution simple serait d'exécuter le pipeline dans le cloud.  
 Dans main.py, j'ai commenté le bloc de code qui permettrait d'exécuter le pipeline sur Dataflow (GCP).
 
 Un aspect à prendre en considération pour gérer de grosses volumétries serait également le stockage des fichiers.  
